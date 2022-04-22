@@ -1,0 +1,21 @@
+{
+  "name": "teste",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Yara Tavares",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node": "^17.7.2",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
