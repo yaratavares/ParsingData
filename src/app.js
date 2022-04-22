@@ -12,7 +12,7 @@ async function converteJSinJson() {
           WHERE "hasSponsorship" = true`
     );
 
-    const json = JSON.stringify(rows[0]);
+    const json = JSON.stringify(rows);
 
     fs.writeFile("sponsored-repos.json", json, (err) => {
       if (err) {
